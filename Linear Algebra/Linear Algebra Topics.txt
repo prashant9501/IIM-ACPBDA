@@ -1,0 +1,40 @@
+1. Intro to LA
+2. Understanding Scalers, Vectors & Matrices
+3. Code implementation
+4. Basic Array Operations & properties (shape, size, ndim)
+5. MAtrix Operations: 
+- addition, substration, division, multiplication (element-wise)>>> the shapes of the two matrices must be exactly the same
+- proper matrix multiplication >>> np.matmul, np.dot  >> inner dimensions must match
+- matrix transpose, reshape, trace, det, inverse,
+
+6. Types of MAtrices: Square, Diagonal, Identity, Zeros, Ones, Sparse, 
+7. Rank of Matrix
+8. Vector Spaces and Subspaces
+9. Vector Dot Product & Vector Norms >>> application (cosine similarity)
+10. Matrix Spaces: Row space, Col space, Null space
+11. Matrix Factorization: LU, QR, EVD, SVD
+12. PCA Example
+13. Linear Regression
+
+
+
+
+
+
+
+
+
+===========
+Vistara
+13:50 from DEL
+
+
+
+NZM RKMP SF EXP (12156)
+20:40 | H NIZAMUDDIN | Sun, 05 Nov
+
+or
+KERALA EXPRESS (12626)
+20:10 | NEW DELHI | Sun, 05 Nov
+
+

@@ -1,0 +1,33 @@
+[N rows/records/datapoints x p columns/features]
+
+Dimensionality Reduction (DR) 
+===========================
+- What is dimensionality of a dataset?
+- What is "Curse of Dimensionality" ?
+(excessive information in the form of large no. of features may lead to overfitting, 
+high complexity makes it more complicated to interpret the model and/or results, 
+high cost of computation, 
+higher/longer training times and slower inference times,   
+data viz. becomes extremely diffcult,
+multicollinearity problem also expected, 
+- sparsity in the dataset)
+
+- Why Dimensionality Reduction? 
+	- motivation, advantages?
+
+- What are diff techniques for DR ?
+2 major techniques:
+	- Feature Selections (RFE, SelectKBest, LASSO, IV, FeatureImportances from RF, ET, etc..)
+		- more efforts in of coding
+		- more time for computations, exprimentations,
+		- model using selected features is always more interpretable	
+		- feature selection mostly improves the models.
+
+	- Feature Transformations (e.g. PCA, LDA, Truncated SVD, t-SNE, etc...)
+		- least effort in terms of coding (easiest to implement)
+		- more time for computations, exprimentations 
+		- model using Feature trasformations  is LEAST Interpretable	
+		- Feature trasformations DO NOT GUARANTEE improvement in the models.
+			(in fact ,most of the ties they don't)
+
+=====================================================
